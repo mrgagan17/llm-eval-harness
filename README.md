@@ -8,6 +8,38 @@ A production-ready Python evaluation harness and Streamlit dashboard for benchma
 - **Built-in 50-Prompt Dataset:** Includes `data/benchmark_50.json` spanning Coding, Reasoning, Extraction, SQL, and Summarization, plus support for custom JSON uploads.
 - **Executive Dashboard & Persistence:** Tracks P95 latency, win-rate splits, and estimated USD cost in SQLite, with one-click CSV and JSON exports.
 
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+| :--- | :--- |
+| **Frontend** | Streamlit |
+| **Model Providers** | Local Ollama REST API & OpenAI-Compatible APIs (`requests`) |
+| **Evaluation Engine** | LLM-as-a-Judge (JSON Rubric) + Lexical Fallback |
+| **Data & Metrics** | Pandas, NumPy |
+| **Database** | SQLite (`sqlite3`) |
+| **Deployment** | Docker |
+
+---
+
+## 📁 Project Structure
+
+```text
+llm-eval-harness/
+├── app.py                   # Streamlit benchmarking dashboard
+├── generate_dataset.py      # Generates the 50-prompt evaluation dataset
+├── core/
+│   ├── __init__.py
+│   ├── providers.py         # Ollama + OpenAI-compatible API clients & cost tracking
+│   ├── judge.py             # LLM-as-a-Judge 1-5 rubric scorer
+│   ├── runner.py            # Benchmark orchestrator & summary aggregator
+│   └── database.py          # SQLite persistence for runs & results
+├── data/
+│   └── benchmark_50.json    # 50-prompt test dataset
+├── requirements.txt
+├── Dockerfile
+├── .gitignore
+└── README.md
+
 ## 🚀 Quick Start
 ```bash
 python -m venv venv
