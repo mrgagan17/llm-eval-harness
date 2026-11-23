@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "category": "coding",
+    "prompt": "Write a Python one-liner to reverse a list `nums`.",
+    "reference_answer": "nums[::-1]"
+  },
+  {
+    "id": 2,
+    "category": "coding",
+    "prompt": "What is the average time complexity of a hash table lookup?",
+    "reference_answer": "O(1) constant time."
+  },
+  {
+    "id": 3,
+    "category": "coding",
+    "prompt": "In Python, what is the difference between a tuple and a list?",
+    "reference_answer": "Lists are mutable; tuples are immutable."
+  },
+  {
+    "id": 4,
+    "category": "reasoning",
+    "prompt": "If 3 machines make 3 widgets in 3 minutes, how long do 100 machines take to make 100 widgets?",
+    "reference_answer": "3 minutes."
+  },
+  {
+    "id": 5,
+    "category": "reasoning",
+    "prompt": "A bat and a ball cost $1.10 total. The bat costs $1.00 more than the ball. How much does the ball cost?",
+    "reference_answer": "$0.05 (5 cents)."
+  },
+  {
+    "id": 6,
+    "category": "extraction",
+    "prompt": "Extract the email and date as JSON: 'Contact Priya at priya@acme.io before 2026-12-01.'",
+    "reference_answer": "{\"email\": \"priya@acme.io\", \"date\": \"2026-12-01\"}"
+  },
+  {
+    "id": 7,
+    "category": "extraction",
+    "prompt": "Extract the total price: 'Subtotal $40, Tax $4, Grand Total $44.00.'",
+    "reference_answer": "$44.00"
+  },
+  {
+    "id": 8,
+    "category": "sql",
+    "prompt": "Write a SQL query to count rows in a table named `orders`.",
+    "reference_answer": "SELECT COUNT(*) FROM orders;"
+  },
+  {
+    "id": 9,
+    "category": "sql",
+    "prompt": "What SQL clause filters grouped aggregate results?",
+    "reference_answer": "HAVING"
+  },
+  {
+    "id": 10,
+    "category": "summarization",
+    "prompt": "Summarize in 10 words or fewer: 'HTTP 429 means the client sent too many requests in a given time.'",
+    "reference_answer": "HTTP 429 indicates the client exceeded the rate limit."
+  },
+  {
+    "id": 11,
+    "category": "coding",
+    "prompt": "Write a Python one-liner to reverse a list `nums`. (Variant #2)",
+    "reference_answer": "nums[::-1]"
+  },
+  {
+    "id": 12,
+    "category": "coding",
+    "prompt": "What is the average time complexity of a hash table lookup? (Variant #2)",
+    "reference_answer": "O(1) constant time."
+  },
+  {
+    "id": 13,
+    "category": "coding",
+    "prompt": "In Python, what is the difference between a tuple and a list? (Variant #2)",
+    "reference_answer": "Lists are mutable; tuples are immutable."
+  },
+  {
+    "id": 14,
+    "category": "reasoning",
+    "prompt": "If 3 machines make 3 widgets in 3 minutes, how long do 100 machines take to make 100 widgets? (Variant #2)",
+    "reference_answer": "3 minutes."
+  },
+  {
+    "id": 15,
+    "category": "reasoning",
+    "prompt": "A bat and a ball cost $1.10 total. The bat costs $1.00 more than the ball. How much does the ball cost? (Variant #2)",
+    "reference_answer": "$0.05 (5 cents)."
+  },
+  {
+    "id": 16,
+    "category": "extraction",
+    "prompt": "Extract the email and date as JSON: 'Contact Priya at priya@acme.io before 2026-12-01.' (Variant #2)",
+    "reference_answer": "{\"email\": \"priya@acme.io\", \"date\": \"2026-12-01\"}"
+  },
+  {
+    "id": 17,
+    "category": "extraction",
+    "prompt": "Extract the total price: 'Subtotal $40, Tax $4, Grand Total $44.00.' (Variant #2)",
+    "reference_answer": "$44.00"
+  },
+  {
+    "id": 18,
+    "category": "sql",
+    "prompt": "Write a SQL query to count rows in a table named `orders`. (Variant #2)",
+    "reference_answer": "SELECT COUNT(*) FROM orders;"
+  },
+  {
+    "id": 19,
+    "category": "sql",
+    "prompt": "What SQL clause filters grouped aggregate results? (Variant #2)",
+    "reference_answer": "HAVING"
+  },
+  {
+    "id": 20,
+    "category": "summarization",
+    "prompt": "Summarize in 10 words or fewer: 'HTTP 429 means the client sent too many requests in a given time.' (Variant #2)",
+    "reference_answer": "HTTP 429 indicates the client exceeded the rate limit."
+  },
+  {
+    "id": 21,
+    "category": "coding",
+    "prompt": "Write a Python one-liner to reverse a list `nums`. (Variant #3)",
+    "reference_answer": "nums[::-1]"
+  },
+  {
+    "id": 22,
+    "category": "coding",
+    "prompt": "What is the average time complexity of a hash table lookup? (Variant #3)",
+    "reference_answer": "O(1) constant time."
+  },
+  {
+    "id": 23,
+    "category": "coding",
+    "prompt": "In Python, what is the difference between a tuple and a list? (Variant #3)",
+    "reference_answer": "Lists are mutable; tuples are immutable."
+  },
+  {
+    "id": 24,
+    "category": "reasoning",
+    "prompt": "If 3 machines make 3 widgets in 3 minutes, how long do 100 machines take to make 100 widgets? (Variant #3)",
+    "reference_answer": "3 minutes."
+  },
+  {
+    "id": 25,
+    "category": "reasoning",
+    "prompt": "A bat and a ball cost $1.10 total. The bat costs $1.00 more than the ball. How much does the ball cost? (Variant #3)",
+    "reference_answer": "$0.05 (5 cents)."
+  },
+  {
+    "id": 26,
+    "category": "extraction",
+    "prompt": "Extract the email and date as JSON: 'Contact Priya at priya@acme.io before 2026-12-01.' (Variant #3)",
+    "reference_answer": "{\"email\": \"priya@acme.io\", \"date\": \"2026-12-01\"}"
+  },
+  {
+    "id": 27,
+    "category": "extraction",
+    "prompt": "Extract the total price: 'Subtotal $40, Tax $4, Grand Total $44.00.' (Variant #3)",
+    "reference_answer": "$44.00"
+  },
+  {
+    "id": 28,
+    "category": "sql",
+    "prompt": "Write a SQL query to count rows in a table named `orders`. (Variant #3)",
+    "reference_answer": "SELECT COUNT(*) FROM orders;"
+  },
+  {
+    "id": 29,
+    "category": "sql",
+    "prompt": "What SQL clause filters grouped aggregate results? (Variant #3)",
+    "reference_answer": "HAVING"
+  },
+  {
+    "id": 30,
+    "category": "summarization",
+    "prompt": "Summarize in 10 words or fewer: 'HTTP 429 means the client sent too many requests in a given time.' (Variant #3)",
+    "reference_answer": "HTTP 429 indicates the client exceeded the rate limit."
+  },
+  {
+    "id": 31,
+    "category": "coding",
+    "prompt": "Write a Python one-liner to reverse a list `nums`. (Variant #4)",
+    "reference_answer": "nums[::-1]"
+  },
+  {
+    "id": 32,
+    "category": "coding",
+    "prompt": "What is the average time complexity of a hash table lookup? (Variant #4)",
+    "reference_answer": "O(1) constant time."
+  },
+  {
+    "id": 33,
+    "category": "coding",
+    "prompt": "In Python, what is the difference between a tuple and a list? (Variant #4)",
+    "reference_answer": "Lists are mutable; tuples are immutable."
+  },
+  {
+    "id": 34,
+    "category": "reasoning",
+    "prompt": "If 3 machines make 3 widgets in 3 minutes, how long do 100 machines take to make 100 widgets? (Variant #4)",
+    "reference_answer": "3 minutes."
+  },
+  {
+    "id": 35,
+    "category": "reasoning",
+    "prompt": "A bat and a ball cost $1.10 total. The bat costs $1.00 more than the ball. How much does the ball cost? (Variant #4)",
+    "reference_answer": "$0.05 (5 cents)."
+  },
+  {
+    "id": 36,
+    "category": "extraction",
+    "prompt": "Extract the email and date as JSON: 'Contact Priya at priya@acme.io before 2026-12-01.' (Variant #4)",
+    "reference_answer": "{\"email\": \"priya@acme.io\", \"date\": \"2026-12-01\"}"
+  },
+  {
+    "id": 37,
+    "category": "extraction",
+    "prompt": "Extract the total price: 'Subtotal $40, Tax $4, Grand Total $44.00.' (Variant #4)",
+    "reference_answer": "$44.00"
+  },
+  {
+    "id": 38,
+    "category": "sql",
+    "prompt": "Write a SQL query to count rows in a table named `orders`. (Variant #4)",
+    "reference_answer": "SELECT COUNT(*) FROM orders;"
+  },
+  {
+    "id": 39,
+    "category": "sql",
+    "prompt": "What SQL clause filters grouped aggregate results? (Variant #4)",
+    "reference_answer": "HAVING"
+  },
+  {
+    "id": 40,
+    "category": "summarization",
+    "prompt": "Summarize in 10 words or fewer: 'HTTP 429 means the client sent too many requests in a given time.' (Variant #4)",
+    "reference_answer": "HTTP 429 indicates the client exceeded the rate limit."
+  },
+  {
+    "id": 41,
+    "category": "coding",
+    "prompt": "Write a Python one-liner to reverse a list `nums`. (Variant #5)",
+    "reference_answer": "nums[::-1]"
+  },
+  {
+    "id": 42,
+    "category": "coding",
+    "prompt": "What is the average time complexity of a hash table lookup? (Variant #5)",
+    "reference_answer": "O(1) constant time."
+  },
+  {
+    "id": 43,
+    "category": "coding",
+    "prompt": "In Python, what is the difference between a tuple and a list? (Variant #5)",
+    "reference_answer": "Lists are mutable; tuples are immutable."
+  },
+  {
+    "id": 44,
+    "category": "reasoning",
+    "prompt": "If 3 machines make 3 widgets in 3 minutes, how long do 100 machines take to make 100 widgets? (Variant #5)",
+    "reference_answer": "3 minutes."
+  },
+  {
+    "id": 45,
+    "category": "reasoning",
+    "prompt": "A bat and a ball cost $1.10 total. The bat costs $1.00 more than the ball. How much does the ball cost? (Variant #5)",
+    "reference_answer": "$0.05 (5 cents)."
+  },
+  {
+    "id": 46,
+    "category": "extraction",
+    "prompt": "Extract the email and date as JSON: 'Contact Priya at priya@acme.io before 2026-12-01.' (Variant #5)",
+    "reference_answer": "{\"email\": \"priya@acme.io\", \"date\": \"2026-12-01\"}"
+  },
+  {
+    "id": 47,
+    "category": "extraction",
+    "prompt": "Extract the total price: 'Subtotal $40, Tax $4, Grand Total $44.00.' (Variant #5)",
+    "reference_answer": "$44.00"
+  },
+  {
+    "id": 48,
+    "category": "sql",
+    "prompt": "Write a SQL query to count rows in a table named `orders`. (Variant #5)",
+    "reference_answer": "SELECT COUNT(*) FROM orders;"
+  },
+  {
+    "id": 49,
+    "category": "sql",
+    "prompt": "What SQL clause filters grouped aggregate results? (Variant #5)",
+    "reference_answer": "HAVING"
+  },
+  {
+    "id": 50,
+    "category": "summarization",
+    "prompt": "Summarize in 10 words or fewer: 'HTTP 429 means the client sent too many requests in a given time.' (Variant #5)",
+    "reference_answer": "HTTP 429 indicates the client exceeded the rate limit."
+  }
+]
